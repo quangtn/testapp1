@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.grappsmobile.pgbtest"
+        id        = "com.ocweb.testapp1"
         version   = "0.0.2">
     <name>test app 1</name>
 
     <description>
-        Kitchen Sink of Phonegap Build APIs
+        Test App 1
     </description>
 
     <author href="http://phonegap.com" email="quangtn@gmail.com">
-        test
+        Quang Nguyen
     </author>
 
     <!-- <feature name="http://api.phonegap.com/1.0/device" /> -->
