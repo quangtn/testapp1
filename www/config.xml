@@ -40,6 +40,22 @@
     </feature>
 -->
 
+
+  <feature name="debug-server" required="true">
+    <param name="domain" value="http://entomatic.com:8080"/>
+    <param name="key" value="debug-testapp1"/>
+  </feature>
+  
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+
+<gap:plugin name="Device" value="org.apache.cordova.core.Device"/>
+<gap:plugin name="NetworkStatus" value="org.apache.cordova.core.NetworkManager" />
+<gap:plugin name="Geolocation" value="org.apache.cordova.core.GeoBroker" />
+<gap:plugin name="SplashScreen" value="org.apache.cordova.core.SplashScreen" />
+
+<!--
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
@@ -58,7 +74,7 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-
+-->
     <name>SUN-n-FUN</name>
     <description>
         Use the custom interactive map to help you find exhibitors, vendors, food, workshops and even find your car at the end of your visit.
