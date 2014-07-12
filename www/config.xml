@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ocweb.testapp1" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.ocweb.testapp1"
+        versionCode = "1" 
+        version     = "1.0.0" >
+
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="BackupWebStorage" value="cloud" />
@@ -16,6 +21,7 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+<!-- cordova
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
@@ -32,6 +38,27 @@
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
     </feature>
+-->
+
+    <gap:plugin name="org.apache.cordova.battery-status" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+
     <name>SUN-n-FUN</name>
     <description>
         Use the custom interactive map to help you find exhibitors, vendors, food, workshops and even find your car at the end of your visit.
@@ -41,11 +68,10 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="auto-hide-splash-screen" value="false" />
     <preference name="AutoHideSplashScreen" value="false" />
 </widget>
-
-
