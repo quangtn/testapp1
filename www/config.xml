@@ -5,6 +5,8 @@
         versionCode = "1" 
         version     = "1.0.0" >
 
+<preference name="phonegap-version" value="3.4.0" />
+
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="BackupWebStorage" value="cloud" />
