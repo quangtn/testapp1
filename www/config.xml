@@ -21,11 +21,7 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
-<<<<<<< HEAD
 <!-- cordova
-=======
-<!--
->>>>>>> origin/master
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
@@ -44,7 +40,6 @@
     </feature>
 -->
 
-<<<<<<< HEAD
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
@@ -63,10 +58,6 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-=======
-
-
->>>>>>> origin/master
 
     <name>SUN-n-FUN</name>
     <description>
@@ -83,8 +74,4 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="auto-hide-splash-screen" value="false" />
     <preference name="AutoHideSplashScreen" value="false" />
-<<<<<<< HEAD
 </widget>
-=======
-</widget>
->>>>>>> origin/master
