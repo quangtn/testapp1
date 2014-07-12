@@ -14,7 +14,7 @@ const Dev_RemoteURL     = "http://dev.snf.onegreatevent.com/";
 const QA_RemoteURL      = "http://snf.onegreatevent.com/";
 const Staging_RemoteURL = "http://snf.onegreatevent.com/";
 const Demo_RemoteURL    = "http://snf.onegreatevent.com/";
-const Prod_RemoteURL    = "http://snf.onegreatevent.com/";
+const Prod_RemoteURL    = "http://www.google.com/";
 //END REMOTE URL VARIABLES
 
 /**
