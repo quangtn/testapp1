@@ -21,7 +21,7 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
-<!-- cordova
+
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
@@ -38,23 +38,21 @@
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
     </feature>
--->
 
+<!-- 
+<gap:plugin name="org.apache.cordova.device" />
+<gap:plugin name="org.apache.cordova.network-information" />
+<gap:plugin name="org.apache.cordova.geolocation" />
+<gap:plugin name="org.apache.cordova.splashscreen" />
+-->
 
   <feature name="debug-server" required="true">
     <param name="domain" value="http://entomatic.com:8080"/>
     <param name="key" value="debug-testapp1"/>
   </feature>
 
-    <feature name="LocalStorage">
-        <param name="ios-package" value="CDVLocalStorage" />
-    </feature>
 
-<gap:plugin name="org.apache.cordova.device" />
-<gap:plugin name="org.apache.cordova.network-information" />
 
-<gap:plugin name="org.apache.cordova.geolocation" />
-<gap:plugin name="org.apache.cordova.splashscreen" />
 
 <!--
     <gap:plugin name="org.apache.cordova.battery-status" />
